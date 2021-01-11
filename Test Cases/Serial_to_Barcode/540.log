@@ -1,0 +1,131 @@
+﻿RP/0/RP0/CPU0:ios#  
+RP/0/RP0/CPU0:ios#
+RP/0/RP0/CPU0:ios#
+RP/0/RP0/CPU0:ios#sh inv
+Thu Sep 17 15:51:39.953 UTC
+NAME: "0/RP0", DESCR: "Cisco NCS 540 Series Fixed Router 24x10G, 8x25G, 2x100G"
+PID: N540-24Z8Q2C-M    , VID: V02, SN: FOC2411NMQD
+
+NAME: "TenGigE0/0/0/0", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140B4X
+
+NAME: "TenGigE0/0/0/1", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140ALQ
+
+NAME: "TenGigE0/0/0/2", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140B49
+
+NAME: "TenGigE0/0/0/3", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130ER4
+
+NAME: "TenGigE0/0/0/4", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140ALE
+
+NAME: "TenGigE0/0/0/5", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130E20
+
+NAME: "TenGigE0/0/0/6", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140ATG
+          
+NAME: "TenGigE0/0/0/7", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130EQR
+
+NAME: "TenGigE0/0/0/8", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW2413046U
+
+NAME: "TenGigE0/0/0/9", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130DEG
+
+NAME: "TenGigE0/0/0/10", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW2413047Z
+
+NAME: "TenGigE0/0/0/11", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130DG3
+
+NAME: "TenGigE0/0/0/12", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW2413047J
+
+NAME: "TenGigE0/0/0/13", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130EGL
+
+NAME: "TenGigE0/0/0/14", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW2413047R
+
+NAME: "TenGigE0/0/0/15", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130FK2
+
+NAME: "TenGigE0/0/0/16", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW2413047G
+
+NAME: "TenGigE0/0/0/17", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130EQP
+
+NAME: "TenGigE0/0/0/18", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140AR3
+
+NAME: "TenGigE0/0/0/19", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130F39
+
+NAME: "TenGigE0/0/0/20", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140ATU
+
+NAME: "TenGigE0/0/0/21", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130F28
+
+NAME: "TenGigE0/0/0/22", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140B39
+
+NAME: "TenGigE0/0/0/23", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130F4H
+
+NAME: "TwentyFiveGigE0/0/0/24", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140B40
+
+NAME: "TwentyFiveGigE0/0/0/25", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130F26
+
+NAME: "TwentyFiveGigE0/0/0/26", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140AQV
+
+NAME: "TwentyFiveGigE0/0/0/27", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130DET
+
+NAME: "TwentyFiveGigE0/0/0/28", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130DRK
+
+NAME: "TwentyFiveGigE0/0/0/29", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140AXX
+          
+NAME: "TwentyFiveGigE0/0/0/30", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24130EWY
+
+NAME: "TwentyFiveGigE0/0/0/31", DESCR: "Cisco SFP+ 10G LR Pluggable Optics Module"
+PID: SFP-10G-LR-S      , VID: V01, SN: ACW24140AYS
+
+NAME: "FortyGigE0/0/1/0", DESCR: "Cisco QSFP+ 40G SR4 Pluggable Optics Module"
+PID: QSFP-40G-SR4      , VID: V03, SN: FIW2418014E
+
+NAME: "Rack 0", DESCR: "NCS 540 Series 24x1/10GE, 8x10/25GE, 2x100GE Fixed Chassis"
+PID: N540-24Z8Q2C-M    , VID: V02, SN: FOC2413NYUV
+
+NAME: "0/FT0", DESCR: "NCS 540 Fan"
+PID: N540-FAN          , VID: V01, SN: N/A
+
+NAME: "0/FT1", DESCR: "NCS 540 Fan"
+PID: N540-FAN          , VID: V01, SN: N/A
+
+NAME: "0/FT2", DESCR: "NCS 540 Fan"
+PID: N540-FAN          , VID: V01, SN: N/A
+
+NAME: "0/FT3", DESCR: "NCS 540 Fan"
+PID: N540-FAN          , VID: V01, SN: N/A
+
+NAME: "0/PM0", DESCR: "NCS 540 400W DC power supply"
+PID: N540-PWR400-D     , VID: V01, SN: SDG2343EY0E
+
+NAME: "0/PM1", DESCR: "NCS 540 400W DC power supply"
+PID: N540-PWR400-D     , VID: V01, SN: SDG2343EY1G
+
+RP/0/RP0/CPU0:ios#
+
+ 

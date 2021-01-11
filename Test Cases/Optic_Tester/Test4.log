@@ -1,0 +1,3377 @@
+﻿RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/0              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:52.171 EDT
+ 
+!
+show controller  GigabitEthernet 0/0/0/1 
+ 
+!
+Operational data for interface GigabitEthernet0/0/0/0:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM191-552-D01
+        Serial number: ACW24040X4S
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 19.000 C
+        Transceiver Voltage: 3.284 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          15.000    10.000     1.000     0.000
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.486     1.000     0.019     0.007
+        Receive Power (dBm):       3.955     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c00
+    Burnt-in address: 7c31.0e38.7c00
+
+Autonegotiation enabled:
+    No restricted parameters
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/1              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:52.358 EDT
+Operational data for interface GigabitEthernet0/0/0/1:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-OPLINK
+        Part number: 1837022038
+        Serial number: OPM24160900
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.320 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001     0.000 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          12.000    10.000     1.000     0.500
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.511     1.000     0.019     0.007
+        Receive Power (dBm):       3.998     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c04
+    Burnt-in address: 7c31.0e38.7c04
+
+Autonegotiation enabled:
+    No restricted parameters
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/2              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:52.526 EDT
+ 
+!
+show controller  GigabitEthernet 0/0/0/5 
+ 
+!
+show controller  TenGigE 0/0/0/6 
+ 
+!
+show controller  TenGigE 0/0/0/7 
+ 
+!
+show controller  TenGigE 0/0/0/8 
+ 
+!
+Operational data for interface GigabitEthernet0/0/0/2:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM191-552-D01
+        Serial number: ACW24040X3Y
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 20.000 C
+        Transceiver Voltage: 3.293 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          15.000    10.000     1.000     0.000
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.486     1.000     0.019     0.007
+        Receive Power (dBm):       3.955     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c08
+    Burnt-in address: 7c31.0e38.7c08
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1518
+    MRU: 1518
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/3              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:52.690 EDT
+Operational data for interface GigabitEthernet0/0/0/3:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM191-552-D01
+        Serial number: ACW24040N0G
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 21.000 C
+        Transceiver Voltage: 3.293 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          15.000    10.000     1.000     0.000
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.486     1.000     0.019     0.007
+        Receive Power (dBm):       3.955     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c0c
+    Burnt-in address: 7c31.0e38.7c0c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1518
+    MRU: 1518
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+show controller  TenGigE 0/0/0/9 
+ 
+!
+show controller  TenGigE 0/0/0/10 
+ RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/4              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:52.862 EDT
+Operational data for interface GigabitEthernet0/0/0/4:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM191-552-D01
+        Serial number: ACW24040X4T
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.294 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          15.000    10.000     1.000     0.000
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.486     1.000     0.019     0.007
+        Receive Power (dBm):       3.955     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c10
+    Burnt-in address: 7c31.0e38.7c10
+
+Autonegotiation enabled:
+    No restricted parameters
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1974
+    MRU: 1974
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthRP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$rnet 0/0/0/5              RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  GigabitEthernet 0/0/0/$
+Mon Aug 17 09:11:53.045 EDT
+Operational data for interface GigabitEthernet0/0/0/5:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: X fiber over short-wl laser PMD, full duplex
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM191-552-D01
+        Serial number: ACW24040X47
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.302 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     89.000    85.000    -5.000    -9.000
+        Transceiver Voltage (V):   3.600     3.500     3.100     3.000
+        Laser Bias (mA):          15.000    10.000     1.000     0.000
+        Transmit Power (mW):       1.258     0.501     0.112     0.044
+        Transmit Power (dBm):      0.997    -3.002    -9.508   -13.565
+        Receive Power (mW):        2.486     1.000     0.019     0.007
+        Receive Power (dBm):       3.955     0.000   -17.212   -21.549
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c14
+    Burnt-in address: 7c31.0e38.7c14
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 1Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1518
+    MRU: 1518
+    BER monitoring:
+        Signal Degrade: 1e-0 (no-alarm)
+        Signal Fail: 1e-0 (no-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/6 
+Mon Aug 17 09:11:53.228 EDT
+Operational data for interface TenGigE0/0/0/6:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150NYX
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.281 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c18
+    Burnt-in address: 7c31.0e38.7c18
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/7 
+Mon Aug 17 09:11:53.393 EDT
+Operational data for interface TenGigE0/0/0/7:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150NV2
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.309 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c1c
+    Burnt-in address: 7c31.0e38.7c1c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/8 
+Mon Aug 17 09:11:53.568 EDT
+Operational data for interface TenGigE0/0/0/8:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150N9M
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.285 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c20
+    Burnt-in address: 7c31.0e38.7c20
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/9 
+Mon Aug 17 09:11:53.766 EDT
+Operational data for interface TenGigE0/0/0/9:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150M28
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.000 C
+        Transceiver Voltage: 3.321 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c24
+    Burnt-in address: 7c31.0e38.7c24
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/10 
+Mon Aug 17 09:11:53.942 EDT
+Operational data for interface TenGigE0/0/0/10:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150PE9
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.266 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c28
+    Burnt-in address: 7c31.0e38.7c28
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/11 
+Mon Aug 17 09:11:58.590 EDT
+ 
+!
+show controller  TenGigE 0/0/0/12 
+ 
+!
+Operational data for interface TenGigE0/0/0/11:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-ACCELINK
+        Part number: RTXM228-401-C88
+        Serial number: ACW24150M2J
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.000 C
+        Transceiver Voltage: 3.262 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+
+        DOM alarms:
+            Laser Bias: Alarm low
+            Transmit Power: Alarm low
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          75.000    70.000    18.000    15.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c2c
+    Burnt-in address: 7c31.0e38.7c2c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1988
+    MRU: 1988
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/12 
+Mon Aug 17 09:11:58.816 EDT
+Operational data for interface TenGigE0/0/0/12:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9K6
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.3   0.5942     -40.0   0.0001L    6.268 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c30
+    Burnt-in address: 7c31.0e38.7c30
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/13 
+Mon Aug 17 09:11:58.989 EDT
+!
+show controller  TenGigE 0/0/0/16 
+ 
+!
+show controller  TenGigE 0/0/0/17 
+ 
+!
+show controller  TenGigE 0/0/0/18 
+ 
+!
+show controller  TenGigE 0/0/0/19 
+ 
+!
+show controller  TenGigE 0/0/0/20 
+ Operational data for interface TenGigE0/0/0/13:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D646
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 27.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.4   0.5699     -40.0   0.0001L    6.524 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c34
+    Burnt-in address: 7c31.0e38.7c34
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#  
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/14 
+Mon Aug 17 09:11:59.154 EDT
+Operational data for interface TenGigE0/0/0/14:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9M2
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.000 C
+        Transceiver Voltage: 3.296 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.2   0.5970     -40.0   0.0001L    6.250 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c38
+    Burnt-in address: 7c31.0e38.7c38
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/15 
+Mon Aug 17 09:11:59.376 EDT
+Operational data for interface TenGigE0/0/0/15:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D631
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 27.000 C
+        Transceiver Voltage: 3.318 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.3   0.5929     -40.0   0.0001L    6.584 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c3c
+    Burnt-in address: 7c31.0e38.7c3c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/16 
+Mon Aug 17 09:11:59.548 EDT
+Operational data for interface TenGigE0/0/0/16:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D829
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.000 C
+        Transceiver Voltage: 3.296 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.2   0.5984     -40.0   0.0001L    6.126 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c40
+    Burnt-in address: 7c31.0e38.7c40
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/17 
+Mon Aug 17 09:11:59.722 EDT
+Operational data for interface TenGigE0/0/0/17:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D62M
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.000 C
+        Transceiver Voltage: 3.318 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.3   0.5955     -40.0   0.0001L    6.106 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c44
+    Burnt-in address: 7c31.0e38.7c44
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/18 
+Mon Aug 17 09:11:59.942 EDT
+Operational data for interface TenGigE0/0/0/18:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D826
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.000 C
+        Transceiver Voltage: 3.299 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.2   0.6012     -40.0   0.0001L    5.864 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c48
+    Burnt-in address: 7c31.0e38.7c48
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/19 
+Mon Aug 17 09:12:00.107 EDT
+Operational data for interface TenGigE0/0/0/19:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411DHL6
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.2   0.5987     -40.0   0.0001L    7.022 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c4c
+    Burnt-in address: 7c31.0e38.7c4c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4364
+    MRU: 4364
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/20 
+Mon Aug 17 09:12:00.272 EDT
+Operational data for interface TenGigE0/0/0/20:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9JZ
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.292 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c50
+    Burnt-in address: 7c31.0e38.7c50
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/21 
+Mon Aug 17 09:12:03.890 EDT
+  
+!
+show controller  TenGigE 0/0/0/22 
+ 
+!
+show contOperational data for interface TenGigE0/0/0/21:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D62J
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -21.1   0.0077L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c54
+    Burnt-in address: 7c31.0e38.7c54
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#  
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/22 
+Mon Aug 17 09:12:04.068 EDT
+Operational data for interface TenGigE0/0/0/22:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9JY
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.296 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c58
+    Burnt-in address: 7c31.0e38.7c58
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/23 
+Mon Aug 17 09:12:04.242 EDT
+!
+show controller  TenGigE 0/0/0/25 
+ 
+!
+show controller  TenGigE 0/0/0/26 
+ 
+!
+show controller  TenGigE 0/0/0/27 
+ 
+!
+show controller  TenGigE 0/0/0/28 
+ 
+!
+show controller  TenGigE 0/0/0/29 
+ 
+Operational data for interface TenGigE0/0/0/23:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D7J1
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.318 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c5c
+    Burnt-in address: 7c31.0e38.7c5c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#  
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/24 
+Mon Aug 17 09:12:04.415 EDT
+Operational data for interface TenGigE0/0/0/24:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D7T5
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.292 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c60
+    Burnt-in address: 7c31.0e38.7c60
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/25 
+Mon Aug 17 09:12:05.083 EDT
+Operational data for interface TenGigE0/0/0/25:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D62L
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.307 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -21.3   0.0074L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c64
+    Burnt-in address: 7c31.0e38.7c64
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/26 
+Mon Aug 17 09:12:05.255 EDT
+Operational data for interface TenGigE0/0/0/26:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9MC
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.299 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -30.0   0.0010L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c68
+    Burnt-in address: 7c31.0e38.7c68
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/27 
+Mon Aug 17 09:12:05.432 EDT
+Operational data for interface TenGigE0/0/0/27:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411DHLV
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.310 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -28.5   0.0014L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c6c
+    Burnt-in address: 7c31.0e38.7c6c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/28 
+Mon Aug 17 09:12:06.192 EDT
+Operational data for interface TenGigE0/0/0/28:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D6AW
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.296 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -24.4   0.0036L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c70
+    Burnt-in address: 7c31.0e38.7c70
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/29 
+Mon Aug 17 09:12:06.357 EDT
+Operational data for interface TenGigE0/0/0/29:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D69X
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.300 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c74
+    Burnt-in address: 7c31.0e38.7c74
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/30 
+Mon Aug 17 09:12:06.522 EDT
+Operational data for interface TenGigE0/0/0/30:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D64A
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -21.8   0.0066L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c78
+    Burnt-in address: 7c31.0e38.7c78
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/31  
+Mon Aug 17 09:12:10.372 EDT
+
+!
+show controller  TenGigE 0/0/0/32 
+ 
+!
+Operational data for interface TenGigE0/0/0/31:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411DHS2
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -34.0   0.0004L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c7c
+    Burnt-in address: 7c31.0e38.7c7c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/32 
+Mon Aug 17 09:12:10.588 EDT
+Operational data for interface TenGigE0/0/0/32:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D7HS
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c80
+    Burnt-in address: 7c31.0e38.7c80
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/33 
+Mon Aug 17 09:12:10.754 EDT
+!
+show controller  TenGigE 0/0/0/36 
+ 
+!
+show controller  TenGigE 0/0/0/37 
+ 
+!
+show controller  TenGigE 0/0/0/38 
+ 
+!
+show controller  TenGigE 0/0/0/39 
+ Operational data for interface TenGigE0/0/0/33:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D7HW
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 24.000 C
+        Transceiver Voltage: 3.310 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c84
+    Burnt-in address: 7c31.0e38.7c84
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/34 
+Mon Aug 17 09:12:10.919 EDT
+Operational data for interface TenGigE0/0/0/34:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D82B
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.300 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -29.6   0.0011L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c88
+    Burnt-in address: 7c31.0e38.7c88
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/35 
+Mon Aug 17 09:12:11.145 EDT
+Operational data for interface TenGigE0/0/0/35:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D7LK
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.318 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -35.2   0.0003L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c8c
+    Burnt-in address: 7c31.0e38.7c8c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/36 
+Mon Aug 17 09:12:11.318 EDT
+Operational data for interface TenGigE0/0/0/36:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D649
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 21.000 C
+        Transceiver Voltage: 3.307 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c90
+    Burnt-in address: 7c31.0e38.7c90
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/37 
+Mon Aug 17 09:12:11.483 EDT
+Operational data for interface TenGigE0/0/0/37:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411DHLU
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.000 C
+        Transceiver Voltage: 3.318 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c94
+    Burnt-in address: 7c31.0e38.7c94
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/38 
+Mon Aug 17 09:12:11.708 EDT
+Operational data for interface TenGigE0/0/0/38:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D63R
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.307 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -21.2   0.0076L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c98
+    Burnt-in address: 7c31.0e38.7c98
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  TenGigE 0/0/0/39 
+Mon Aug 17 09:12:11.875 EDT
+Operational data for interface TenGigE0/0/0/39:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: R fiber over 850nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-709SMZ-CS2
+        Serial number: AVD2411D9K0
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.000 C
+        Transceiver Voltage: 3.299 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.002 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.500    10.500     2.500     2.500
+        Transmit Power (mW):       1.479     0.741     0.186     0.074
+        Transmit Power (dBm):      1.700    -1.302    -7.305   -11.308
+        Receive Power (mW):        1.584     0.794     0.102     0.040
+        Receive Power (dBm):       1.998    -1.002    -9.914   -13.979
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7c9c
+    Burnt-in address: 7c31.0e38.7c9c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  FortyGigE 0/0/1/0 
+ 
+Mon Aug 17 09:12:16.346 EDT
+!
+show controller  FortyGigE 0/0/1/1 
+ 
+!
+show controller  HOperational data for interface FortyGigE0/0/1/0:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: fiber over 4 lane optics (short reach)
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-79EIPZ-CS4
+        Serial number: AVP2407S14R
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 22.332 C
+        Transceiver Voltage: 3.289 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        1     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        2     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        3     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          10.000     9.500     1.000     0.500
+        Transmit Power (mW):       1.584     0.794     0.173     0.069
+        Transmit Power (dBm):      1.998    -1.002    -7.620   -11.612
+        Receive Power (mW):        2.187     1.737     0.112     0.044
+        Receive Power (dBm):       3.398     2.398    -9.508   -13.565
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7ca0
+    Burnt-in address: 7c31.0e38.7ca0
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 40Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  FortyGigE 0/0/1/1 
+Mon Aug 17 09:12:17.065 EDT
+Operational data for interface FortyGigE0/0/1/1:
+
+State:
+    Administrative state: disabled
+    Operational state: Down (Reason: Link is shutdown)
+    LED state: Off
+
+Phy:
+    Media type: fiber over 4 lane optics (short reach)
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-79EIPZ-CS4
+        Serial number: AVP2407S158
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 23.730 C
+        Transceiver Voltage: 3.291 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        1     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        2     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+        3     n/a     -40.0   0.0001     -40.0   0.0001L    0.000 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          10.000     9.500     1.000     0.500
+        Transmit Power (mW):       1.584     0.794     0.173     0.069
+        Transmit Power (dBm):      1.998    -1.002    -7.620   -11.612
+        Receive Power (mW):        2.187     1.737     0.112     0.044
+        Receive Power (dBm):       3.398     2.398    -9.508   -13.565
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7ca4
+    Burnt-in address: 7c31.0e38.7ca4
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 40Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller  HundredGigE 0/0/1/2 
+Mon Aug 17 09:12:17.785 EDT
+Operational data for interface HundredGigE0/0/1/2:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: fiber over 4 lane optics (short reach)
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFBR-89CDDZ-CS5
+        Serial number: AVF2418S1RZ
+        Wavelength: 850 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 25.808 C
+        Transceiver Voltage: 3.287 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     0.6   1.1353     -40.0   0.0001L    7.494 
+        1     n/a     0.4   1.0902     -40.0   0.0001L    7.494 
+        2     n/a     0.3   1.0656     -25.4   0.0029L    7.494 
+        3     n/a     0.3   1.0802     -34.0   0.0004L    7.494 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.135     2.970
+        Laser Bias (mA):          10.000     8.500     3.000     2.000
+        Transmit Power (mW):       3.467     1.737     0.144     0.057
+        Transmit Power (dBm):      5.400     2.398    -8.416   -12.441
+        Receive Power (mW):        3.467     1.737     0.093     0.037
+        Receive Power (dBm):       5.400     2.398   -10.315   -14.318
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7ca8
+    Burnt-in address: 7c31.0e38.7ca8
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 100Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4368
+    MRU: 4368
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Standard (Reed-Solomon)
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$1/3/0                     RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0/1/3/0      $
+Mon Aug 17 09:12:18.502 EDT
+Operational data for interface TenGigE0/0/1/3/0:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: fiber over 4 Lane optics (long reach)
+    Optics:
+        Vendor: CISCO-OPLINK
+        Part number: QSP1PF4LRCCISE2G
+        Serial number: OPM24140X3F
+        Wavelength: 1307 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.660 C
+        Transceiver Voltage: 3.290 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.9   0.5113     -35.2   0.0003L    30.330 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          75.000    70.004    12.000    10.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7cac
+    Burnt-in address: 7c31.0e38.7cac
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 4368
+    MRU: 4368
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2# 
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$1/3/1                     RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0/1/3/1      $
+Mon Aug 17 09:12:19.213 EDT
+Operational data for interface TenGigE0/0/1/3/1:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: fiber over 4 Lane optics (long reach)
+    Optics:
+        Vendor: CISCO-OPLINK
+        Part number: QSP1PF4LRCCISE2G
+        Serial number: OPM24140X3F
+        Wavelength: 1307 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.660 C
+        Transceiver Voltage: 3.290 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        1     n/a     -2.8   0.5291     -40.0   0.0001L    31.926 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          75.000    70.004    12.000    10.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7cad
+    Burnt-in address: 7c31.0e38.7cad
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#$1/3/2                     RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0/1/3/2      $
+Mon Aug 17 09:12:19.932 EDT
+Operational data for interface TenGigE0/0/1/3/2:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: fiber over 4 Lane optics (long reach)
+    Optics:
+        Vendor: CISCO-OPLINK
+        Part number: QSP1PF4LRCCISE2G
+        Serial number: OPM24140X3F
+        Wavelength: 1307 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.660 C
+        Transceiver Voltage: 3.289 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        2     n/a     -2.6   0.5450     -40.0   0.0001L    30.346 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          75.000    70.004    12.000    10.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7cae
+    Burnt-in address: 7c31.0e38.7cae
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#!
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#show controller TenGigE 0/0/1/3/3 
+Mon Aug 17 09:12:22.402 EDT
+Operational data for interface TenGigE0/0/1/3/3:
+
+State:
+    Administrative state: enabled
+    Operational state: Down (Reason: Link loss or low light, no loopback)
+    LED state: Yellow On
+
+Phy:
+    Media type: fiber over 4 Lane optics (long reach)
+    Optics:
+        Vendor: CISCO-OPLINK
+        Part number: QSP1PF4LRCCISE2G
+        Serial number: OPM24140X3F
+        Wavelength: 1307 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 26.660 C
+        Transceiver Voltage: 3.289 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        3     n/a     -3.1   0.4941     -12.0   0.0001L    30.044 
+
+        DOM alarms:
+            Receive Power: Alarm low
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.100     2.970
+        Laser Bias (mA):          75.000    70.004    12.000    10.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 7c31.0e38.7caf
+    Burnt-in address: 7c31.0e38.7caf
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:CNCQOH22T1A-P-CI-0467-H2#

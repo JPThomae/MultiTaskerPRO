@@ -1,0 +1,33 @@
+﻿
+Router#
+Router#sh inv
+NAME: "Chassis", DESCR: "NCS 4206 Series Router Chassis"
+PID: NCS4206-SA        , VID: V01  , SN: FOX2318PCW5
+
+NAME: "IM subslot 0/4", DESCR: "8-port Gigabit Ethernet & 1-port Ten Gigabit Ethernet SFP Interface Module"
+PID: NCS4200-1T8LR-PS  , VID: V01  , SN: FOC2403NXND
+
+NAME: "subslot 0/4 transceiver 8", DESCR: "SFP+ 10GBASE-LR"
+PID: ONS-SC+-10G-LR      , VID: V01  , SN: SPC235200KY     
+
+NAME: "IM subslot 0/5", DESCR: "ASR 900 48 port T1E1 IM"
+PID: NCS4200-48T1E1-CE , VID: V02  , SN: FOC2345P70D
+
+NAME: "module R0", DESCR: "NCS 420X Route Switch Processor , 400G, XL Scale"
+PID: NCS420X-RSP       , VID: V04  , SN: FOC2241NXWA
+
+NAME: "module R1", DESCR: "NCS 420X Route Switch Processor , 400G, XL Scale"
+PID: NCS420X-RSP       , VID: V04  , SN: FOC2241NXW8
+
+NAME: "Power Supply Module 0", DESCR: "NCS4K 1200W AC Power Supply"
+PID: A900-PWR1200-A    , VID: V03  , SN: DCA2401D0GH
+
+NAME: "Power Supply Module 1", DESCR: "NCS4K 1200W AC Power Supply"
+PID: A900-PWR1200-A    , VID: V03  , SN: DCA2401D0HF
+
+NAME: "Fan Tray", DESCR: "NCS4K FAN Tray"
+PID: A903-FAN-H        , VID: V01  , SN: FOC2403PC78
+
+
+Router#
+Router#

@@ -1,0 +1,2359 @@
+﻿RP/0/RP0/CPU0:ios#
+RP/0/RP0/CPU0:ios#
+RP/0/RP0/CPU0:ios#
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/0 
+ 
+Thu Sep 17 19:25:43.073 UTC
+!
+show controller  TenGigE 0/0/0/1 
+ 
+!
+show controller  TenGigE 0/0/0/2 
+ 
+!
+show controller  TenGigE 0/0/0/3 
+ 
+!
+Operational data for interface TenGigE0/0/0/0:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3AK
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 29.000 C
+        Transceiver Voltage: 3.300 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.8   0.6628     -11.8   0.0664     22.866 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d800
+    Burnt-in address: 5ca6.2d20.d800
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/1 
+Thu Sep 17 19:25:43.270 UTC
+Operational data for interface TenGigE0/0/0/1:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3R5
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.320 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7268     -11.2   0.0755     22.564 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d804
+    Burnt-in address: 5ca6.2d20.d804
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/2 
+Thu Sep 17 19:25:43.464 UTC
+show controller  TenGigE 0/0/0/4 
+ 
+!
+show controller  TenGigE 0/0/0/5 
+ 
+!
+show controller  TenGigE 0/0/0/6 
+ 
+!
+show controller  TenGigE 0/0/0/7 
+ 
+!
+show controller  TenGigE 0/0/0/8 
+ 
+!
+Operational data for interface TenGigE0/0/0/2:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3AS
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 29.000 C
+        Transceiver Voltage: 3.304 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7271     -11.3   0.0744     22.072 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d808
+    Burnt-in address: 5ca6.2d20.d808
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/3 
+Thu Sep 17 19:25:43.658 UTC
+show controller  TenGigE 0/0/0/9 
+ 
+!
+show controller  TenGigE 0/0/0/10 
+ 
+!
+show controller  TenGigE 0/0/0/11 
+ 
+!
+show controller  TenGigE 0/0/0/12 
+ 
+!
+show controller  TenGigE 0/0/0/13 
+  
+Operational data for interface TenGigE0/0/0/3:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5KJ
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 32.000 C
+        Transceiver Voltage: 3.315 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7261     -11.5   0.0702     19.808 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d80c
+    Burnt-in address: 5ca6.2d20.d80c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/4 
+Thu Sep 17 19:25:43.852 UTC
+!
+show controller  TenGigE 0/0/0/14 
+ 
+!
+show controller  TenGigE 0/0/0/15 
+ 
+!
+show controller  TenGigE 0/0/0/16 
+ 
+!
+show controller  TenGigE 0/0/0/17 
+ 
+!
+show controller  TenGigE 0/0/0/18 
+ 
+Operational data for interface TenGigE0/0/0/4:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3AG
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 29.000 C
+        Transceiver Voltage: 3.310 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7165     -11.7   0.0683     22.384 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d810
+    Burnt-in address: 5ca6.2d20.d810
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/5 
+Thu Sep 17 19:25:44.053 UTC
+Operational data for interface TenGigE0/0/0/5:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3UH
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.324 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.8   0.6542     -11.7   0.0669     23.888 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d814
+    Burnt-in address: 5ca6.2d20.d814
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/6 
+Thu Sep 17 19:25:44.246 UTC
+!
+show controller  TenGigE 0/0/0/19 
+ 
+!
+show controller  TenGigE 0/0/0/20 
+ 
+!
+show controller  TenGigE 0/0/0/21 
+  
+!
+show controller  TenGigE 0/0/0/22 
+ 
+Operational data for interface TenGigE0/0/0/6:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3AU
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.304 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.5   0.7115     -11.0   0.0803     23.490 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d818
+    Burnt-in address: 5ca6.2d20.d818
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/7 
+Thu Sep 17 19:25:44.452 UTC
+!
+show controller  TenGigE 0/0/0/23 
+  
+!
+show controller  TenGigE 0/0/0/24 
+ 
+!
+show controller  TenGigE 0/0/0/25 
+ 
+!
+show controller  TenGigE 0/0/0/26 
+ 
+!
+show controller  TenGigE 0/0/0/27 
+ 
+!
+Operational data for interface TenGigE0/0/0/7:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3TM
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.7   0.6690     -17.8   0.0655     24.186 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d81c
+    Burnt-in address: 5ca6.2d20.d81c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/8 
+Thu Sep 17 19:25:44.655 UTC
+show controller  TenGigE 0/0/0/28 
+ 
+!
+show controller  TenGigE 0/0/0/29 
+ 
+!
+show controller  TenGigE 0/0/0/30 
+ 
+!
+show controller  TenGigE 0/0/0/31
+ 
+!
+Operational data for interface TenGigE0/0/0/8:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3AL
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.307 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.9   0.6408     -12.0   0.0635     23.054 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d820
+    Burnt-in address: 5ca6.2d20.d820
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/9 
+Thu Sep 17 19:25:44.850 UTC
+Operational data for interface TenGigE0/0/0/9:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3U9
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.315 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7256     -12.0   0.0625     22.918 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d824
+    Burnt-in address: 5ca6.2d20.d824
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/10 
+Thu Sep 17 19:25:45.043 UTC
+Operational data for interface TenGigE0/0/0/10:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K43N
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 32.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.7   0.6800     -11.6   0.0684     23.840 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            SF-BER
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d828
+    Burnt-in address: 5ca6.2d20.d828
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 90
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/11 
+Thu Sep 17 19:25:45.234 UTC
+Operational data for interface TenGigE0/0/0/11:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3UV
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7181     -11.0   0.0803     23.752 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d82c
+    Burnt-in address: 5ca6.2d20.d82c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/12 
+Thu Sep 17 19:25:45.438 UTC
+Operational data for interface TenGigE0/0/0/12:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K43V
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 31.000 C
+        Transceiver Voltage: 3.305 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.7   0.6733     -11.7   0.0674     23.468 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d830
+    Burnt-in address: 5ca6.2d20.d830
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/13 
+Thu Sep 17 19:25:45.631 UTC
+Operational data for interface TenGigE0/0/0/13:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3V4
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 34.000 C
+        Transceiver Voltage: 3.315 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.3   0.5841     -12.1   0.0619     24.192 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d834
+    Burnt-in address: 5ca6.2d20.d834
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios#  
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/14 
+Thu Sep 17 19:25:45.825 UTC
+Operational data for interface TenGigE0/0/0/14:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K43P
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.301 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -3.4   0.4603     -13.3   0.0466     23.434 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d838
+    Burnt-in address: 5ca6.2d20.d838
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/15 
+Thu Sep 17 19:25:46.019 UTC
+Operational data for interface TenGigE0/0/0/15:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K7G8
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.310 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7233     -11.7   0.0670     23.110 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d83c
+    Burnt-in address: 5ca6.2d20.d83c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/16 
+Thu Sep 17 19:25:46.220 UTC
+Operational data for interface TenGigE0/0/0/16:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K44P
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.306 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.0   0.6362     -12.3   0.0590     23.490 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d840
+    Burnt-in address: 5ca6.2d20.d840
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/17 
+Thu Sep 17 19:25:46.413 UTC
+Operational data for interface TenGigE0/0/0/17:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K7GB
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 32.000 C
+        Transceiver Voltage: 3.297 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7238     -11.4   0.0727     23.676 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d844
+    Burnt-in address: 5ca6.2d20.d844
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/18 
+Thu Sep 17 19:25:46.605 UTC
+Operational data for interface TenGigE0/0/0/18:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K44D
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 31.000 C
+        Transceiver Voltage: 3.305 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.6   0.6990     -11.8   0.0658     23.634 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d848
+    Burnt-in address: 5ca6.2d20.d848
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/19 
+Thu Sep 17 19:25:46.813 UTC
+Operational data for interface TenGigE0/0/0/19:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K7GA
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.309 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7291     -10.9   0.0809     22.444 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d84c
+    Burnt-in address: 5ca6.2d20.d84c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/20 
+Thu Sep 17 19:25:47.005 UTC
+Operational data for interface TenGigE0/0/0/20:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K79R
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 31.000 C
+        Transceiver Voltage: 3.314 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.4   0.5694     -13.3   0.0465     23.748 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d850
+    Burnt-in address: 5ca6.2d20.d850
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/21 
+Thu Sep 17 19:25:47.202 UTC
+Operational data for interface TenGigE0/0/0/21:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K7FG
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 34.000 C
+        Transceiver Voltage: 3.311 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.8   0.6572     -11.1   0.0776     23.920 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d854
+    Burnt-in address: 5ca6.2d20.d854
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios#  
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/22 
+Thu Sep 17 19:25:47.396 UTC
+Operational data for interface TenGigE0/0/0/22:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K41B
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 31.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.6   0.6949     -10.6   0.0867     23.440 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d858
+    Burnt-in address: 5ca6.2d20.d858
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/23 
+Thu Sep 17 19:25:47.588 UTC
+Operational data for interface TenGigE0/0/0/23:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5KC
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 34.000 C
+        Transceiver Voltage: 3.310 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.9   0.6397     -11.6   0.0691     23.848 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d85c
+    Burnt-in address: 5ca6.2d20.d85c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios#  
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/24 
+Thu Sep 17 19:25:47.781 UTC
+Operational data for interface TenGigE0/0/0/24:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K3R9
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 32.000 C
+        Transceiver Voltage: 3.307 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7236     -11.1   0.0771     23.620 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d860
+    Burnt-in address: 5ca6.2d20.d860
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/25 
+Thu Sep 17 19:25:47.976 UTC
+Operational data for interface TenGigE0/0/0/25:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5KH
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 34.000 C
+        Transceiver Voltage: 3.308 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.5   0.5563     -15.5   0.0707     23.978 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d864
+    Burnt-in address: 5ca6.2d20.d864
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/26 
+Thu Sep 17 19:25:48.169 UTC
+Operational data for interface TenGigE0/0/0/26:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K40X
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.305 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.2   0.5966     -11.7   0.0681     23.796 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d868
+    Burnt-in address: 5ca6.2d20.d868
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/27 
+Thu Sep 17 19:25:48.363 UTC
+Operational data for interface TenGigE0/0/0/27:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5K2
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 34.000 C
+        Transceiver Voltage: 3.311 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.4   0.5715     -12.3   0.0587     24.244 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d86c
+    Burnt-in address: 5ca6.2d20.d86c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/28 
+Thu Sep 17 19:25:48.555 UTC
+Operational data for interface TenGigE0/0/0/28:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K40E
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 31.000 C
+        Transceiver Voltage: 3.301 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.0   0.6355     -12.0   0.0637     23.744 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d870
+    Burnt-in address: 5ca6.2d20.d870
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/29 
+Thu Sep 17 19:25:48.758 UTC
+Operational data for interface TenGigE0/0/0/29:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5JW
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 33.000 C
+        Transceiver Voltage: 3.311 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.4   0.7264     -10.8   0.0832     22.800 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d874
+    Burnt-in address: 5ca6.2d20.d874
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/30 
+Thu Sep 17 19:25:49.826 UTC
+Operational data for interface TenGigE0/0/0/30:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K4KV
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 29.000 C
+        Transceiver Voltage: 3.303 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -2.3   0.5883     -13.6   0.0435     23.258 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d878
+    Burnt-in address: 5ca6.2d20.d878
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:ios#show controller  TenGigE 0/0/0/31
+Thu Sep 17 19:25:50.025 UTC
+Operational data for interface TenGigE0/0/0/31:
+
+State:
+    Administrative state: enabled
+    Operational state: Up
+    LED state: Green On
+
+Phy:
+    Media type: R fiber over 1310nm optics
+    Optics:
+        Vendor: CISCO-AVAGO
+        Part number: SFCT-739SMZ-CS1
+        Serial number: AVD2407K5K6
+        Wavelength: 1310 nm
+    Digital Optical Monitoring:
+        Transceiver Temp: 30.000 C
+        Transceiver Voltage: 3.312 V
+
+        Alarms key: (H) Alarm high, (h) Warning high
+                    (L) Alarm low, (l) Warning low
+           Wavelength    Tx Power          Rx Power      Laser Bias
+        Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
+        --   -----   ------   ------    ------   ------    ------
+        0     n/a     -1.7   0.6750     -17.8   0.0841     23.456 
+
+        DOM alarms:
+            No alarms
+
+        Alarm                     Alarm    Warning   Warning    Alarm
+        Thresholds                High      High       Low       Low
+                                 -------   -------   -------   -------
+        Transceiver Temp (C):     75.000    70.000     0.000    -5.000
+        Transceiver Voltage (V):   3.630     3.465     3.134     2.970
+        Laser Bias (mA):          80.000    70.000    10.000     8.000
+        Transmit Power (mW):       2.238     1.121     0.151     0.060
+        Transmit Power (dBm):      3.499     0.496    -8.210   -12.218
+        Receive Power (mW):        2.238     1.121     0.036     0.014
+        Receive Power (dBm):       3.499     0.496   -14.437   -18.539
+    Alarms:
+        Current:
+            No alarms
+    Statistics:
+        FEC:
+            Corrected Codeword Count: 0
+            Uncorrected Codeword Count: 0
+
+MAC address information:
+    Operational address: 5ca6.2d20.d87c
+    Burnt-in address: 5ca6.2d20.d87c
+
+Autonegotiation disabled.
+
+Operational values:
+    Speed: 10Gbps
+    Duplex: Full Duplex
+    Flowcontrol: None
+    Loopback: None (or external)
+    MTU: 1514
+    MRU: 1514
+    BER monitoring:
+        Signal Degrade: 1e-10 (no-alarm)
+        Signal Fail: 1e-8 (report-alarm)
+        Current SD BER: 0
+        Current SF BER: 0
+    Forward error correction: Disabled
+
+RP/0/RP0/CPU0:ios# 
+RP/0/RP0/CPU0:ios#!
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#show version
+Thu Sep 17 15:35:06.466 EDT
+Cisco IOS XR Software, Version 6.6.25
+Copyright (c) 2013-2019 by Cisco Systems, Inc.
+
+Build Information:
+ Built By     : deenayak
+ Built On     : Wed May 29 07:03:08 PDT 2019
+ Built Host   : iox-lnx-028
+ Workspace    : /auto/srcarchive13/prod/6.6.25/ncs540/ws
+ Version      : 6.6.25
+ Location     : /opt/cisco/XR/packages/
+
+cisco NCS-540 () processor
+System uptime is 4 hours 39 minutes
+
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#
+RP/0/RP0/CPU0:LWCTOH02T2A-S-CI-0291-05#

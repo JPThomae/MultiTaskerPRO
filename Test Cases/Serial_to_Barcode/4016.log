@@ -1,0 +1,268 @@
+﻿RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#
+RP/0/RP0:ios#show inv
+Tue Oct 13 17:09:22.309 UTC
+NAME: "0/8", DESCR: "NCS 4000 400G Packet/OTN/WDM - QSFP28/CFP2 - Line Card"
+PID: NCS4K-4H-OPW-QC2  , VID: V07, SN: CAT2411B08R
+
+NAME: "Optics0/8/0/0", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472373     
+
+NAME: "Optics0/8/0/1", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472384     
+
+NAME: "Optics0/8/0/11", DESCR: "CFP2 Pluggable Optics Module"
+PID: ONS-CFP2-WDM      , VID: V08, SN: OVE24122FLS
+
+NAME: "0/9", DESCR: "NCS 4000 400G Packet/OTN/WDM - QSFP28/CFP2 - Line Card"
+PID: NCS4K-4H-OPW-QC2  , VID: V07, SN: CAT2411B060
+
+NAME: "Optics0/9/0/0", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472389     
+
+NAME: "Optics0/9/0/1", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472418     
+
+NAME: "Optics0/9/0/11", DESCR: "CFP2 Pluggable Optics Module"
+PID: ONS-CFP2-WDM      , VID: V08, SN: OVE24142EJ0
+          
+NAME: "0/12", DESCR: "NCS 4000 400G Packet/OTN/WDM - QSFP28/CFP2 - Line Card"
+PID: NCS4K-4H-OPW-QC2  , VID: V07, SN: CAT2417B2BF
+
+NAME: "Optics0/12/0/0", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472066     
+
+NAME: "Optics0/12/0/1", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472194     
+
+NAME: "Optics0/12/0/11", DESCR: "CFP2 Pluggable Optics Module"
+PID: ONS-CFP2-WDM      , VID: V08, SN: OVE24142FL1
+
+NAME: "0/13", DESCR: "NCS 4000 400G Packet/OTN/WDM - QSFP28/CFP2 - Line Card"
+PID: NCS4K-4H-OPW-QC2  , VID: V07, SN: CAT2411B09G
+
+NAME: "Optics0/13/0/0", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472312     
+
+NAME: "Optics0/13/0/1", DESCR: "Cisco 4x10G QSFP MLR Pluggable Optics Module"
+PID: ONS-QSFP-4X10-MLR , VID: V01 , SN: INL23472170     
+
+NAME: "Optics0/13/0/11", DESCR: "CFP2 Pluggable Optics Module"
+PID: ONS-CFP2-WDM      , VID: V08, SN: OVE24122FLG
+
+NAME: "0/RP0", DESCR: "NCS 4000 Router Processor and Controller (32G RAM)             "
+PID: NCS4K-RP          , VID: V08 , SN: CAT2403B1WN
+
+NAME: "0/RP1", DESCR: "NCS 4000 Router Processor and Controller (32G RAM)             "
+PID: NCS4K-RP          , VID: V08 , SN: CAT2403B1YF
+
+NAME: "0/FC0", DESCR: "NCS 4016 Agnostic Cross connect - Multichassis - V2            "
+PID: NCS4016-FC2-M     , VID: V06 , SN: CAT2426B0B7
+
+NAME: "0/FC0-PORT-0", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K081    
+
+NAME: "0/FC0-PORT-1", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0CL    
+
+NAME: "0/FC0-PORT-2", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K07V    
+
+NAME: "0/FC0-PORT-3", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2425K18E    
+
+NAME: "0/FC0-PORT-4", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K00J    
+
+NAME: "0/FC0-PORT-5", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K1JD    
+
+NAME: "0/FC0-PORT-6", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0F7    
+
+NAME: "0/FC0-PORT-7", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K0A2    
+
+NAME: "0/FC0-PORT-8", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K07W    
+
+NAME: "0/FC0-PORT-9", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0FL    
+
+NAME: "0/FC0-PORT-10", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K084    
+
+NAME: "0/FC0-PORT-11", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0L1    
+          
+NAME: "0/FC1", DESCR: "NCS 4016 Agnostic Cross connect - Multichassis - V2            "
+PID: NCS4016-FC2-M     , VID: V05 , SN: CAT2350B1RJ
+
+NAME: "0/FC1-PORT-0", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K06W    
+
+NAME: "0/FC1-PORT-1", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0CV    
+
+NAME: "0/FC1-PORT-2", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0WG    
+
+NAME: "0/FC1-PORT-3", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0BB    
+
+NAME: "0/FC1-PORT-4", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K06H    
+
+NAME: "0/FC1-PORT-5", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2417K16K    
+
+NAME: "0/FC1-PORT-6", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K154    
+
+NAME: "0/FC1-PORT-7", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0D1    
+
+NAME: "0/FC1-PORT-8", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K22F    
+
+NAME: "0/FC1-PORT-9", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0C3    
+
+NAME: "0/FC1-PORT-10", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K00E    
+
+NAME: "0/FC1-PORT-11", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K07S    
+
+NAME: "0/FC2", DESCR: "NCS 4016 Agnostic Cross connect - Multichassis - V2            "
+PID: NCS4016-FC2-M     , VID: V06 , SN: CAT2426B08U
+
+NAME: "0/FC2-PORT-0", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0AD    
+
+NAME: "0/FC2-PORT-1", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K03P    
+
+NAME: "0/FC2-PORT-2", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0FK    
+
+NAME: "0/FC2-PORT-3", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K08D    
+
+NAME: "0/FC2-PORT-4", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0BC    
+
+NAME: "0/FC2-PORT-5", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0K8    
+
+NAME: "0/FC2-PORT-6", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2414K0GW    
+
+NAME: "0/FC2-PORT-7", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0A1    
+
+NAME: "0/FC2-PORT-8", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0V9    
+          
+NAME: "0/FC2-PORT-9", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K1JJ    
+
+NAME: "0/FC2-PORT-10", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K06A    
+
+NAME: "0/FC2-PORT-11", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K263    
+
+NAME: "0/FC3", DESCR: "NCS 4016 Agnostic Cross connect - Multichassis - V2            "
+PID: NCS4016-FC2-M     , VID: V05 , SN: CAT2350B1SC
+
+NAME: "0/FC3-PORT-0", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K06M    
+
+NAME: "0/FC3-PORT-1", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K05F    
+
+NAME: "0/FC3-PORT-2", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2415K16B    
+
+NAME: "0/FC3-PORT-3", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2422K1PH    
+
+NAME: "0/FC3-PORT-4", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K06P    
+
+NAME: "0/FC3-PORT-5", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2426K1D1    
+
+NAME: "0/FC3-PORT-6", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2418K169    
+
+NAME: "0/FC3-PORT-7", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K07X    
+
+NAME: "0/FC3-PORT-8", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K006    
+
+NAME: "0/FC3-PORT-9", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0FB    
+
+NAME: "0/FC3-PORT-10", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0A4    
+
+NAME: "0/FC3-PORT-11", DESCR: "CXP Optical Transceiver with Optical Connector"
+PID: ONS-CXP2-SR25     , VID: V02, SN: AGF2419K0CS    
+
+NAME: "0/CI0", DESCR: "NCS 4000 Craft Panel"
+PID: NCS4K-CRAFT       , VID: V03, SN: SAL2405002Z
+
+NAME: "0/EC0", DESCR: "NCS 4000 External Connection Unit - Version 2"
+PID: NCS4K-ECU2        , VID: V02, SN: SAL242001EN
+
+NAME: "Rack 0", DESCR: "ECU-DISK-SSD0"
+PID: NCS4K-SSD-100G    , VID: V00, SN: MSA235306FM
+
+NAME: "Rack 0", DESCR: "ECU-DISK-SSD1"
+PID: NCS4K-SSD-100G    , VID: V00, SN: MSA235306FL
+
+NAME: "Rack 0", DESCR: "NCS 4016 Shelf Assembly - DC Power"
+PID: NCS4016-SA-DC     , VID: V03, SN: SAL234900SS
+
+NAME: "0/FT0", DESCR: "NCS 4000 Fan Tray Assembly"
+PID: NCS4K-FTA         , VID: V04, SN: SAL240600HB
+
+NAME: "0/FT1", DESCR: "NCS 4000 Fan Tray Assembly"
+PID: NCS4K-FTA         , VID: V04, SN: SAL240600H4
+          
+NAME: "0/PT0", DESCR: "NCS 4000 DC Power Entry Module"
+PID: NCS4K-DC-PEM      , VID: V03, SN: SAL240301A6
+
+NAME: "0/PT0-PM0", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT2411000G
+
+NAME: "0/PT0-PM1", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT24110047
+
+NAME: "0/PT0-PM2", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT2411003H
+
+NAME: "0/PT0-PM3", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT2411004M
+
+NAME: "0/PT1", DESCR: "NCS 4000 DC Power Entry Module"
+PID: NCS4K-DC-PEM      , VID: V03, SN: SAL2405005T
+
+NAME: "0/PT1-PM0", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT24110007
+
+NAME: "0/PT1-PM1", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT2411000Q
+
+NAME: "0/PT1-PM2", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT2411000N
+
+NAME: "0/PT1-PM3", DESCR: "NCS 4000 DC Power System Unit -1750 W - Balanced A and B"
+PID: NCS4K-DC-PSU-V1   , VID: V01, SN: ATT24110015
+
+RP/0/RP0:CHANGEME#
+RP/0/RP0:CHANGEME#

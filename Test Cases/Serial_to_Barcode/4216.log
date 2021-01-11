@@ -1,0 +1,30 @@
+﻿Router#sh inv
+NAME: "Chassis", DESCR: "NCS 4216-F2B Series Router Chassis"
+PID: NCS4216-F2B-SA    , VID: V03  , SN: FOX2402PL5Q
+
+NAME: "module R0", DESCR: "NCS 4216 Route Switch Processor , 400G, XL Scale"
+PID: NCS4216-RSP       , VID: V04  , SN: FOC2411NMUF
+
+NAME: "module R1", DESCR: "NCS 4216 Route Switch Processor , 400G, XL Scale"
+PID: NCS4216-RSP       , VID: V04  , SN: FOC2411NMUE
+
+NAME: "Power Supply Module 0", DESCR: "NCS4K 900W DC Power Supply"
+PID: A900-PWR900-D2    , VID: V02  , SN: LIT232522WU
+
+NAME: "Power Supply Module 1", DESCR: "NCS4K 900W DC Power Supply"
+PID: A900-PWR900-D2    , VID: V02  , SN: LIT2325227M
+
+NAME: "Power Supply Module 3", DESCR: "NCS4K 900W DC Power Supply"
+PID: A900-PWR900-D2    , VID: V02  , SN: LIT232522XA
+
+NAME: "Fan Tray", DESCR: "NCS4216 F2B top FAN Tray"
+PID: NCS4216-F2B-FAN   , VID: V02  , SN: FOC2402PKKF
+
+NAME: "Fan Tray", DESCR: "NCS4216 F2B bottom FAN Tray"
+PID: NCS4216-F2B-FAN   , VID: V02  , SN: FOC2402PKKX
+
+NAME: "Fan Tray", DESCR: "NCS4216 F2B Power Supply Fan Tray"
+PID: NCS4216-PWR-FAN   , VID: V02  , SN: FOC2404NYZM
+
+
+Router#
