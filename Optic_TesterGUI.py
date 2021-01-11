@@ -7,6 +7,11 @@ from tkinter import filedialog
 #-----------------------------------
 
 def DoTheThing():
+    global interface, wavelength, tx, rx
+    interface = []
+    wavelength = []
+    tx = []
+    rx = []
     with open(file, "r") as quality:
         file1 = quality.readlines()
         files = iter(file1)
@@ -23,6 +28,7 @@ def ChooseFile():
     global file
     file = filedialog.askopenfilename(filetypes=[('log', '*.log'), ('txt', '*.txt')])
     log_file_var.set(file)
+    textbox.delete('1.0', END)
 
 def interfaces(line):
     for i in target:
@@ -86,10 +92,9 @@ def quit():
 #-----------------------------------
 
 #Variable declarations
-interface = []
-wavelength = []
-tx = []
-rx = []
+
+
+
 target = ['#show controller  TenGigE 0/0/0/']
 
 App_Version = "Optic Tester v1.0"
@@ -102,6 +107,7 @@ w = Canvas(root, width=canvas_width, height=canvas_height, bg='gray95')
 w.pack()
 
 textbox = Text(w, height=17, width=42)
+textbox.config(state=NORMAL)
 textbox.place(x=20, y=150)
 
 #Choosing the file

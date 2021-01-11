@@ -739,7 +739,7 @@ Phy:
            Wavelength    Tx Power          Rx Power      Laser Bias
         Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
         --   -----   ------   ------    ------   ------    ------
-        0     n/a     -40.0   0.0001L    -40.0   0.0001L    0.000L
+        0     n/a     -2.0   0.0001L    -11.0   0.0001L    0.000L
 
         DOM alarms:
             Laser Bias: Alarm low
@@ -971,7 +971,7 @@ Phy:
            Wavelength    Tx Power          Rx Power      Laser Bias
         Lane  (nm)    (dBm)    (mW)     (dBm)     (mW)      (mA)
         --   -----   ------   ------    ------   ------    ------
-        0     n/a     -2.4   0.5699     -40.0   0.0001L    6.524 
+        0     n/a     -2.4   0.5699     -5.0   0.0001L    6.524 
 
         DOM alarms:
             Receive Power: Alarm low
