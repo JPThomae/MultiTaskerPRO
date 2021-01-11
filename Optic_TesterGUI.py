@@ -57,7 +57,7 @@ def good_or_bad(interface, wavelength, tx, rx):
             elif diff > -13:
                 textbox.insert(END, interface[i] + ': ' + 'PASS --- ' + str(round(diff, 3)) + '\n')
             elif diff < -13:
-                textbox.insert(END, interface[i] + ': ' + 'FAIL --- ' + str(round(diff, 3)))
+                textbox.insert(END, interface[i] + ': ' + 'FAIL --- ' + str(round(diff, 3)) + '\n')
         if wavelength[i] == '850':
             if rx[i] == 0 and tx[i] == 0:
                 textbox.insert(END, interface[i] + ': ' + 'FAIL --- No Signal' + '\n')
@@ -66,7 +66,7 @@ def good_or_bad(interface, wavelength, tx, rx):
             elif diff > -3:
                 textbox.insert(END, interface[i] + ': ' + 'PASS --- ' + str(round(diff, 3)) + '\n')
             elif diff < -3:
-                textbox.insert(END, interface[i] + ': ' + 'FAIL --- ' + str(round(diff, 3)))
+                textbox.insert(END, interface[i] + ': ' + 'FAIL --- ' + str(round(diff, 3)) + '\n')
 
 def Info():
     toplevel = Toplevel(root, bg="gray95")
